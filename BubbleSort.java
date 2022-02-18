@@ -26,7 +26,7 @@ public class BubbleSort {
 		int aux, end = v.length;
 		boolean change = true;
 		
-		while(change==true){
+		while(change){
 			change = false;
 			end--;
 			for(int i=0 ; i < end; i++){
